@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <title>DashBoard</title>
+</head>
+<body>
+    
+    <section id="container">
+
+        <header>
+
+            <a href="dashboard.html">
+                <img src="hlogo.png" alt="logo">
+                <span>Student Record Manager</span>
+            </a>
+
+            <a href="index.html" class="logout">
+                <i class="fa-solid fa-right-from-bracket"></i>
+                Logout
+            </a>
+
+        </header>
+
+        <section class="student-dashboard"> 
+            
+            <form class="student-form">
+
+                <h3><i data-lucide="user-round-plus" style="color:#4338CA;"></i>Add New Student</h3>
+
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter full name" required>
+
+                <label for="age">Age</label>
+                <input type="number" id="age" name="age" placeholder="Enter age" required>
+
+    
+                <label for="class">Class</label>
+                <select id="class" name="class" required>
+                    <option value="" disabled selected>Select class</option>
+                    <option>1st Year</option>
+                    <option>2nd Year</option>
+                    <option>3rd Year</option>
+                    <option>4th Year</option>
+                </select>
+
+                <label for="marks">Marks (0-100)</label>
+                <input type="number" id="marks" name="marks" placeholder="Enter marks" required>
+
+                <label for="status">Status</label>
+                <select id="status" name="status" required>
+                    <option value="" disabled selected>Select status</option>
+                    <option>Active</option>
+                    <option>Inactive</option>
+                    <option>Promoted</option>
+                    <option>Graduated</option>
+                    <option>Dropped</option>
+                    <option>On Hold</option>
+                </select>
+
+                <button type="submit" id="submit"> <i class="fa-solid fa-plus"></i> Add
+                    Student</button>
+                <button type="reset" id="reset"> <i class="fa-solid fa-rotate-right"></i> Clear Form</button>
+
+            </form>
+
+        </section>
+
+
+    </section>
+
+
+    <script>
+    lucide.createIcons();
+    </script>
+</body>
+</html>
