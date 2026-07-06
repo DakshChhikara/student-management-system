@@ -171,3 +171,136 @@ h3{
     transform: translateY(-2px);
     box-shadow: 0 8px 20px rgba(220,38,38,0.15);
 }
+
+.dashboard-content{
+    flex: 1;
+    padding: 1.8rem;
+}
+
+.statistics{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.card{
+    background: white;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    box-shadow: 0 8px 30px rgba(15,23,42,.08);
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 16px 40px rgba(15,23,42,.12);
+}
+
+.card-icon{
+    width: 4.3rem;
+    height: 4.3rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-icon i{
+    font-size: 1.5rem;
+}
+
+
+
+.purple{
+    background:#EEF2FF;
+}
+
+.purple i{
+    color:#4F46E5;
+}
+
+.green{
+    background:#ECFDF3;
+}
+
+.green i{
+    color:#16A34A;
+}
+
+.red{
+    background:#FEF2F2;
+}
+
+.red i{
+    color:#EF4444;
+}
+
+.yellow{
+    background:#FFF7E6;
+}
+
+.yellow i{
+    color:#F59E0B;
+}
+
+.blue{
+    background:#EFF6FF;
+}
+
+.blue i{
+    color:#2563EB;
+}
+
+.orange{
+    background:#FFF7ED;
+}
+
+.orange i{
+    color:#F97316;
+}
+
+.card-info h2{
+    font-size:2rem;
+    font-family:"Plus Jakarta Sans",sans-serif;
+    font-weight:700;
+    color:#111827;
+    margin-bottom:.2rem;
+}
+
+.card-info p{
+    font-size:1rem;
+    color:#374151;
+    font-family:"Plus Jakarta Sans",sans-serif;
+    margin-bottom:.4rem;
+}
+
+.card-info span{
+    font-size:1rem;
+    font-weight:600;
+    font-family:"Plus Jakarta Sans",sans-serif;
+}
+
+.success{
+    color:#16A34A;
+}
+
+.danger{
+    color:#EF4444;
+}
+
+.primary{
+    color:#2563EB;
+}
+
+.warning{
+    color:#F97316;
+}
+
+
+footer{
+    margin-top: 0.5rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+} 
